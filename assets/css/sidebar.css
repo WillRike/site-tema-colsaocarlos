@@ -1,0 +1,114 @@
+sidebar{
+    width: 27%;
+    max-width: 800px;
+    min-width: 324px;
+    margin-top: 50px ;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.wp-block-search__inside-wrapper{
+    background-color: #FAFAFA;
+    padding: 0px !important;
+    border: none !important;
+    border-radius: 3px !important;
+    margin-bottom: 34px;
+}
+.wp-block-search__input{
+    background-color: #FAFAFA;
+    padding: 10px !important;
+    border-radius: 3px 0px 0px 3px !important;
+}
+
+.wp-block-search__input::-webkit-input-placeholder {
+    color: #E7E7E7 ;
+}
+
+
+.wp-block-search__input::-moz-placeholder {
+    color: #E7E7E7 ;
+}
+
+.wp-block-search__button{
+    background-color: #26257D !important;
+    color: #fff !important;
+    fill: #fff;
+    border: none !important;
+    margin-left: 0 !important;
+    border-radius: 0px 3px 3px 0px !important;
+}
+
+sidebar h3{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #26257D;
+}
+
+.wp-block-latest-posts__list li{
+    display: grid;
+    margin-bottom: 21px;
+    grid-template-columns: 25% 75%;
+    grid-template-areas:
+    "img-post title-post"
+    "img-post time-post"
+    ;
+}
+
+.wp-block-latest-posts__featured-image{
+    grid-area: img-post;
+    margin-right: 5px;
+    width: 73px;
+
+    background-color: #fafafa;
+    border-radius: 3px;
+}
+
+.wp-block-latest-posts__featured-image img{
+    width: 73px;
+    height: 73px;
+
+    object-fit: contain;
+    object-position: center;
+}
+
+.wp-block-latest-posts__list li a{
+    grid-area: title-post;
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #26257D;
+}
+
+.wp-block-latest-posts__list li time{
+    grid-area: time-post;
+    font-size: 11px;
+    font-family: 'Poppins';
+    font-style: italic;
+    color: #958D8E;
+}
+.widget_categories ul{
+    padding: 0 !important;
+}
+
+.widget_categories li{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 9px;
+
+
+    background-color: #FAFAFA;
+    border-radius: 3px;
+    border-left: 3px solid #26257D;
+    list-style: none;
+    color: #ccc;
+}
+
+.widget_categories li a{
+    font-size: 16px;
+    font-family: 'Poppins';
+
+    text-decoration: none;
+    color: #26257D;
+    font-weight: bold;
+}

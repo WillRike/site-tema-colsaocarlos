@@ -1,0 +1,12 @@
+.article-page{
+    width: 100%;
+    max-width: 850px;
+}
+
+.article-page h1, .article-page h2, .article-page h3, .article-page h4, .article-page h5, .article-page h6{
+    color: #26257D;
+}
+
+.card-page{
+    padding: 5px;
+}
